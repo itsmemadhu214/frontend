@@ -1,7 +1,43 @@
-<html>
-    <title>
-        git home
- </title> 
- <body>
- </body>
- <html>
+What is DevOps
+
+DevOps ia a Software Development approach which involves continous Development, Continous testing, Continous Integration, 
+Continuos Deployment and continous Monitoring throughout its development lifecycle.
+
+
+I have used various devops tools like 
+Git - for version cotrol system
+Jenkins - for continous Integration
+Maven - as a build tool
+Sonarcube - for code analysis
+Nexus - for artifactory repository
+Ansible - for continous deployment & configuration Managemnet
+Docker - for containerization
+Kubernetes - for container orchestration
+
+GIT 
+- Enabling Branching strategies like dev, devQA, Prod, ProdQA (branch creation)
+- Managing Git repositories using various git commands
+- Managing git user access(giving access to specific repositories), specific branches to specify the code
+
+JENKINS
+- setting jenkins server
+- master & slave configuration
+- managing CI/CD tools
+- managing jenkins plugins(like addition plugins)
+- Integration other devops tools like git, maven, sonarcube, nexus, etc.,
+
+Ansible
+- setting up ansible control server(setting up master)
+- writing playbooks & roles
+- managing ansible hosts
+
+Docker
+- setup docker environment
+- writing dockerfiles
+- creating custom images
+- setting up private docker registry
+- creating & managing containers
+
+Kubernetes
+- setup kubernetes environment on AWS or 0n-premises
+
